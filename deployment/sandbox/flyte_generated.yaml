@@ -859,7 +859,7 @@ spec:
     protocol: TCP
   selector:
     app: contour
-  type: NodePort
+  type: LoadBalancer 
 ---
 apiVersion: apps/v1
 kind: Deployment
