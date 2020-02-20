@@ -854,7 +854,7 @@ metadata:
   namespace: heptio-contour
 spec:
   ports:
-  - nodePort: 30081
+  - nodePort: 80 
     port: 80
     protocol: TCP
   selector:
